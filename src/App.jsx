@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
@@ -43,7 +40,7 @@ function App() {
         aria-live="polite" le avisa al lector de pantalla 
         que este texto cambia dinámicamente.
       */}
-      <p id = "palanra actual" role = "status"
+      <p id = "palabra- actual" role = "status"
       aria-live="polite">{listaPalabras[indiceActual]}</p>
 
       {/* 
